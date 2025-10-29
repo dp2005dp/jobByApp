@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+🧑‍💻 Jobby App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern Job Portal Web Application built using React.js, where users can explore job listings, view job details, and filter opportunities based on preferences.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+🔐 Login & Authentication
+Users must log in using valid credentials.
+JWT token-based authentication using js-cookie for secure sessions.
+Protected routes ensure only logged-in users can access job pages.
 
-### `npm start`
+<img width="827" height="725" alt="image" src="https://github.com/user-attachments/assets/8c411afa-cea7-482f-beb4-6ae61e5cf7c2" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🏠 Home Page
+Displays a personalized profile section.
+Provides quick navigation links to all job-related pages.
+Includes a logout button for secure session handling.
 
-### `npm test`
+<img width="1890" height="871" alt="image" src="https://github.com/user-attachments/assets/998ae702-032b-4567-a53f-377790b8760b" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+💼 Jobs Page
+Shows a list of available jobs fetched from the API.
+Each job card contains:
+Company logo and name
+Job title
+Employment type (Full Time, Internship, etc.)
+Location and salary package
+Description summary
 
-### `npm run build`
+<img width="1274" height="871" alt="image" src="https://github.com/user-attachments/assets/a372fd2e-4d30-45c3-8702-da135da1f5c7" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔎 Search Functionality
+Users can search for specific job titles or keywords.
+Results update dynamically as users type.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🎯 Filters
+Type of Employment: Filter jobs by full-time, part-time, freelance, or internship.
+Salary Range: Filter based on minimum salary expectations (10LPA, 20LPA, etc.).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📋 Job Details Page
+Displays in-depth information about a selected job, including:
+Full job description
+Required skills
+Life at company
+Similar job suggestions
 
-### `npm run eject`
+<img width="618" height="645" alt="image" src="https://github.com/user-attachments/assets/df13d34e-902d-4e85-b3d7-902a6071929e" />
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛠️ Tech Stack
+Frontend: React.js
+Routing: React Router DOM (v5)
+Authentication: js-cookie
+UI Icons: React Icons
+Loader: react-loader-spinner
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📱 Mobile View Features
+Home Page
+Jobs Page
+Search Functionality
+Filters
+Job Details Page
+Login Page
+Responsive Design
+Smooth Navigation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/a53d18c4-f218-40f5-87e2-fba990b2abe9" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Developed by Durgaprasad — a passionate React Developer. 🚀
+#Happy Coding
