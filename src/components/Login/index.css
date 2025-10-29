@@ -1,0 +1,98 @@
+.login-container {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-card-container {
+  width: 400px;
+  background-color: #272727;
+  border-radius: 10px;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+@media screen and (max-width: 567px) {
+  .login-card-container {
+    width: 300px;
+  }
+}
+.login-logo {
+  height: 65px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 567px) {
+  .login-logo {
+    height: 40px;
+    width: 100px;
+  }
+}
+.label {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+@media screen and (max-width: 567px) {
+  .label {
+    font-size: 18px;
+  }
+}
+
+.input-container {
+  height: 45px;
+  width: 300px;
+  background-color: transparent;
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #7e858e;
+  outline: none;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 567px) {
+  .input-container {
+    height: 40px;
+    width: 250px;
+  }
+}
+
+.margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.failed-login-message {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.login-button {
+  height: 45px;
+  width: 300px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border-radius: 8px;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 567px) {
+  .login-button {
+    height: 40px;
+    width: 250px;
+  }
+}

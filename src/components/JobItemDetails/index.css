@@ -1,0 +1,328 @@
+.job-item-app-conatiner {
+  height: 100%;
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+.job-item-responsive-conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.job-item-company-details-container {
+  list-style-type: none;
+  background-color: #272727;
+  width: 80vw;
+  border-radius: 20px;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.job-item-company-logo {
+  height: 80px;
+  width: 75px;
+}
+@media screen and (max-width: 567px) {
+  .job-item-company-logo {
+    height: 100px;
+    width: 70px;
+  }
+}
+.job-item-company-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 567px) {
+  .job-item-company-title {
+    font-size: 20px;
+  }
+}
+.job-item-star-rating-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.job-item-compay-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 22px;
+  margin-left: 10px;
+}
+.job-item-star-icon {
+  height: 20px;
+  width: 22px;
+  color: #fbbf24;
+  margin-top: 0px;
+}
+
+.job-item-location-icon {
+  height: 40px;
+  width: 30px;
+  color: #f1f5f9;
+}
+
+@media screen and (max-width: 567px) {
+  .job-item-location-icon {
+    height: 20px;
+    width: 20px;
+  }
+}
+.job-item-job-type-icon {
+  height: 40px;
+  width: 30px;
+  color: #f1f5f9;
+}
+
+@media screen and (max-width: 567px) {
+  .job-item-job-type-icon {
+    height: 20px;
+    width: 20px;
+  }
+}
+.job-item-location-job-type-content {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 567px) {
+  .job-item-location-job-type-content {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+}
+.job-item-annum-package {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+
+@media screen and (max-width: 567px) {
+  .job-item-annum-package {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+}
+.job-item-herizontal-line {
+  width: 75vw;
+  border: 1px solid #7e858e;
+}
+
+@media screen and (max-width: 567px) {
+  .job-item-herizontal-line {
+    width: 95%;
+  }
+}
+.job-item-descripition-webSite-flex-contaiber {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-item-descripition {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.job-item-descripition-content {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 0px;
+}
+.job-item-link-icon {
+  height: 15px;
+  width: 15px;
+  color: #b6c5ff;
+  margin-left: 10px;
+}
+.job-item-visit {
+  color: #b6c5ff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.job-item-website-link {
+  text-decoration: none;
+  color: inherit;
+}
+.job-item-flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.job-item-loc-jobty-package-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.job-item-marign-company-title {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.job-item-margin-loc-job-type {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 567px) {
+  .job-item-margin-loc-job-type {
+    margin-left: 15px;
+  }
+}
+.unorder-skill-list-conatiner {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skills-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.skills {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.skills-name {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-left: 20px;
+}
+.skills-tools {
+  height: 70px;
+  width: 70px;
+}
+.life-at-company {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-top: 100px;
+}
+.life-at-company-descripition {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.life-at-company-image {
+  height: 350px;
+  width: 400px;
+  border-radius: 20px;
+  border-width: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .life-at-company-image {
+    height: 200px;
+    width: 100%;
+  }
+}
+.life-at-company-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .life-at-company-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+.similar-job {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.unorer-similar-job-list-container {
+  width: 80vw;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.similar-job-list-container {
+  width: 500px;
+  background-color: #272727;
+  list-style-type: none;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border-width: 0px;
+  padding: 30px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  height: 500px;
+  width: 600px;
+}
+
+@media screen and (max-width: 567px) {
+  .failure-image {
+    height: 300px;
+    width: 300px;
+  }
+}
+.failure-message {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+@media screen and (max-width: 567px) {
+  .failure-message {
+    font-size: 25px;
+  }
+}
+.failure-error {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+@media screen and (max-width: 567px) {
+  .failure-error {
+    font-size: 15px;
+  }
+}
+.retry-button {
+  height: 40px;
+  width: 100px;
+  background-color: #6366f1;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+}
